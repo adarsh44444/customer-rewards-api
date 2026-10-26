@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: customer-rewards-api
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
+    com.example.rewards: INFO
+
+rewards:
+  rate-limit:
+    capacity: 60
+    window-seconds: 60
